@@ -1,0 +1,18 @@
+Package: cchsurvey
+Type: Package
+Title: CCHS The Next GenRation: Tools for Analyzing CCHS Data from 2015+
+Version: 0.1.0
+Authors@R: person("Yvonne", "DeWit", email = "ycdewit@gmail.com",
+                  role = c("aut", "cre"))
+Description: Tools for analyzing data from the Canadian Community Health Survey (CCHS) from Statistics 
+    Canada using R. Primary purpose is to create usable tables and graphics with estimates for a public
+    health unit or region, the peer group of health units/groups and province the public health unit
+    belongs to. This package includes tools for cleaning and analyzing CCHS data and enhances use of 
+    the survey package specifically for the CCHS survey design. It also includes a function that runs 
+    code for all the currently released errata for the 2015/2016 CCHS data.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr (>= 0.8.0.1), 
+    rlang (>= 0.3.4)
